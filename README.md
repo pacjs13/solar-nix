@@ -5,9 +5,11 @@
 
 My **NixOS files** that I use in all my machines (by default)
 
+---
+
 ## ⚙️ | Components
-Flakes Files:
-Home-Manager:
+- Flakes Files:
+- Home-Manager:
 
 ## 🎋 | Structure - (13/11/2025)
 ```bash```

@@ -1,15 +1,25 @@
-# λ | Solar Nix - NixOS configuration files ❄️
+# 𖤓  | Solar Nix - NixOS configuration files 
 
-![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
-![Flakes](https://img.shields.io/badge/Flakes-5E81AC?logo=nixos&logoColor=white)
+![NixOS Stable](https://img.shields.io/badge/NixOS%20Stable-Declarative-5277C3?logo=nixos&logoColor=white&style=flat-square)
+![Xfce](https://img.shields.io/badge/-Xfce%20Desktop%20Environment-2C8EBB?logo=xfce&logoColor=white&style=plastic)
 
 My **NixOS files** that I use in all my machines (by default)
 
 ---
 
-## ⚙️ | Components
-- Flakes File:
-- Home-Manager:
+## ☀️ | Components
 
-## 🎋 | Structure - (13/11/2025)
-```bash```
+- **Configuration File**: [configuration.nix](https://github.com/pacjs13/solar-nix/blob/main/configuration.nix)
+- **Modules**: [Modules folder](https://github.com/pacjs13/solar-nix/tree/main/modules)
+
+---
+
+## 📂 | Structure - (13/11/2025)
+```bash
+├── configuration.nix
+├── hardware-configuration.nix
+├── modules
+│ └── default.nix
+└── README.md
+
+2 directories, 4 files```

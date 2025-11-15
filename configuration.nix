@@ -11,12 +11,18 @@
       ./modules
     ];
 
+  # flakes
+  nix.settings.experimental-features = ["nix-command" "flakes"];
+  
   # bluetooth
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
   };
   services.blueman.enable = true;
+
+  # flatpak
+  services.flatpak.enable = true;
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -53,9 +59,11 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  # Enable the XFCE Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
+  # Enable the COSMIC login manager
+  services.displayManager.cosmic-greeter.enable = true;
+
+  # Enable the COSMIC Desktop Environment.
+  services.desktopManager.cosmic.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {

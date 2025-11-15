@@ -43,6 +43,14 @@
       gimp
       inkscape
       kdePackages. kdenlive
+
+    # Games
+      steam-run
+      steam
+      mesa-demos
+      libglvnd
+      libdrm
+      gamescope
      ];
 
 }
